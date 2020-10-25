@@ -1,0 +1,29 @@
+.toolbox {
+    background-color: #252526;
+    border: 1px solid gray;
+    height: 900px;
+    overflow: auto;
+
+    .title {
+        padding-left: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    .intersections {
+        display: flex;
+        flex-direction: column;
+
+        .intersection {
+            padding-left: 10px;
+            padding-top: 10px;
+            flex: 1 1 auto;
+            height: 60px;
+            border-bottom: 1px solid white;
+
+            &:hover {
+                background-color: #3c3c3c;
+                cursor: pointer;
+            }
+        }
+    }
+}

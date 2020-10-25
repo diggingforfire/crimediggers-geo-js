@@ -1,0 +1,9 @@
+@import "~leaflet/dist/leaflet.css";
+
+.map {
+    border: 1px solid gray;
+
+    .popup {
+        font-family: Roboto, sans-serif;
+    }
+}
